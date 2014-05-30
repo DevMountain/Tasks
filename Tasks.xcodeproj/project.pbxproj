@@ -19,6 +19,8 @@
 		711A500419385BA5005642EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 711A4FEC19385BA5005642EF /* UIKit.framework */; };
 		711A500C19385BA5005642EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 711A500A19385BA5005642EF /* InfoPlist.strings */; };
 		711A500E19385BA5005642EF /* TasksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 711A500D19385BA5005642EF /* TasksTests.m */; };
+		711A501919385BB5005642EF /* TSTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 711A501819385BB5005642EF /* TSTask.m */; };
+		711A501C19385EB1005642EF /* TSTaskController.m in Sources */ = {isa = PBXBuildFile; fileRef = 711A501B19385EB1005642EF /* TSTaskController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,10 @@
 		711A500919385BA5005642EF /* TasksTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TasksTests-Info.plist"; sourceTree = "<group>"; };
 		711A500B19385BA5005642EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		711A500D19385BA5005642EF /* TasksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TasksTests.m; sourceTree = "<group>"; };
+		711A501719385BB5005642EF /* TSTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTask.h; sourceTree = "<group>"; };
+		711A501819385BB5005642EF /* TSTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSTask.m; sourceTree = "<group>"; };
+		711A501A19385EB1005642EF /* TSTaskController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTaskController.h; sourceTree = "<group>"; };
+		711A501B19385EB1005642EF /* TSTaskController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSTaskController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,10 @@
 			children = (
 				711A4FF719385BA5005642EF /* TSAppDelegate.h */,
 				711A4FF819385BA5005642EF /* TSAppDelegate.m */,
+				711A501719385BB5005642EF /* TSTask.h */,
+				711A501819385BB5005642EF /* TSTask.m */,
+				711A501A19385EB1005642EF /* TSTaskController.h */,
+				711A501B19385EB1005642EF /* TSTaskController.m */,
 				711A4FFA19385BA5005642EF /* Images.xcassets */,
 				711A4FEF19385BA5005642EF /* Supporting Files */,
 			);
@@ -241,6 +251,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				711A4FF519385BA5005642EF /* main.m in Sources */,
+				711A501919385BB5005642EF /* TSTask.m in Sources */,
+				711A501C19385EB1005642EF /* TSTaskController.m in Sources */,
 				711A4FF919385BA5005642EF /* TSAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
